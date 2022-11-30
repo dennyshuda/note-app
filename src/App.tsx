@@ -1,7 +1,13 @@
+import { Footer } from "./components/footer";
+import { Header } from "./components/header";
+import { Note } from "./components/note";
+
 function App() {
   return (
     <div className="App">
-      <h1>hai</h1>
+      <Header />
+      <Note />
+      <Footer />
     </div>
   );
 }
